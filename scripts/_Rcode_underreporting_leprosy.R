@@ -97,9 +97,7 @@ hansen_constants=list(n_regions = n_regions,
                       w = weights
 )
 
-
 hansen_data=list(Y = hansen_data_micro$HANSEN)
-
 
 #
 ##Regular Poisson  e Bonimial Negativo model just for checking
@@ -112,7 +110,6 @@ summary(mPoisson)
 round(exp(mPoisson$coefficients),4)
 round(exp(confint(mPoisson)),4)
 
-
 if(!require(MASS)){ install.packages("MASS"); require(MASS)}   
 mNegBinomial <- glm.nb(formula = hansen_data$Y ~ hansen_constants$X1 +  
                   hansen_constants$X2 + hansen_constants$X3 + 
@@ -121,9 +118,6 @@ mNegBinomial <- glm.nb(formula = hansen_data$Y ~ hansen_constants$X1 +
 summary(mNegBinomial)
 round(exp(mNegBinomial$coefficients),4)
 round(exp(confint(mNegBinomial)),4)
-
-
-
 
 #
 ##

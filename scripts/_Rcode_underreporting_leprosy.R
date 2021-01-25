@@ -73,7 +73,7 @@ n_regions=length(n_adj) # Number of regions = 557.
 
 # Centering covariates of reporting model according to region of reference
 names(hansen_data_micro)
-which(hansen_data_micro$NOME_MICRO=="RIOPRETODAEVA13") #microrregiao Rio Preto da Eva COD 13008 posição 15
+which(hansen_data_micro$NOME_MICRO=="RIOPRETODAEVA13") #microrregiao Rio Preto da Eva COD 13008 posiÃ§Ã£o 15
 pgrau2_centered=scale(hansen_data_micro$PROP_GRAU2,center=hansen_data_micro$PROP_GRAU2[15], scale=F)
 pgrau2_centered = as.numeric(pgrau2_centered*100) 
 print(hansen_data_micro$PROP_GRAU2*100)

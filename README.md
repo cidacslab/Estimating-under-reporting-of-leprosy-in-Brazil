@@ -4,6 +4,7 @@
 * [General info](#general-info)
 * [Compilation](#compilation)
 * [Input data](#data)
+* [Note](#note)
 * [References](#references)
 
 ## General info
@@ -18,7 +19,7 @@ Our model was implemented using NIMBLE in conjunction with the software R [2], f
 On the folder "Data_and_results" the reader can find a CSV file containing all necessary variables to perform the analysis as well as the obtained results for each microregion. This file also contains the raw data used in the figures presented in the main manuscript [1].
 
 ## Note
-This directory can be cited as "Oliveira, G.L., Oliveira, J.F., J.S., Pescarini, Andrade, R.F., Nery, J.M., Ichihara, M.Y., Smeeth, L., Brickley, E.B., Barreto, M.L., Penna, G.O. and Penna, M.L. (2021). Estimating Under Reporting of Leprosy in Brazil using a Bayesian Approach. {\it GitHub repository: Estimating Under Reporting of Leprosy in Brazil using a Bayesian Approach}, doi = {10.5281/zenodo.4497815}."
+This directory can be cited as "Oliveira, G.L., Oliveira, J.F., J.S., Pescarini, Andrade, R.F., Nery, J.M., Ichihara, M.Y., Smeeth, L., Brickley, E.B., Barreto, M.L., Penna, G.O. and Penna, M.L. (2021). Estimating Under Reporting of Leprosy in Brazil using a Bayesian Approach.  GitHub repository: Estimating Under Reporting of Leprosy in Brazil using a Bayesian Approach, doi 10.5281/zenodo.4497815".
 
 ## References 
 [1] Oliveira GL, Oliveira JF, Pescarini JM, Andrade RF, Nery JS, Ichihara MY, Smeeth L, Brickley EB, Barreto ML, Penna GO, Penna ML. Estimating Under Reporting of Leprosy in Brazil using a Bayesian Approach. medRxiv. 2020 Jan 1.

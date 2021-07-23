@@ -16,7 +16,7 @@ The code originated from the results described in [1]. This was an interdiscipli
 Our model was implemented using NIMBLE in conjunction with the software R [2], following the supplementary materials provided in [3]. The code is located at the "scripts" folder.
 
 ## Input data
-On the folder "Data_and_results" the reader can find a CSV file containing all necessary variables to perform the analysis as well as the obtained results for each microregion. This file also contains the raw data used in the figures presented in the main manuscript [1].
+On the folder "Data_and_results" the reader can find a CSV file containing all necessary variables to perform the analysis as well as the obtained results for each microregion and states. The folder also contains the raw data (output_micro) used in the figures presented in the main manuscript [1].
 
 ## Note
 This directory can be cited as "Oliveira GL, Oliveira JF, Pescarini JM, Andrade RF, Nery JS, Ichihara MY, Smeeth L, Brickley EB, Barreto ML, Penna GO, Penna ML. (2021). Estimating Under Reporting of Leprosy in Brazil using a Bayesian Approach.  GitHub repository: Estimating Under Reporting of Leprosy in Brazil using a Bayesian Approach, doi 10.5281/zenodo.4497815".
